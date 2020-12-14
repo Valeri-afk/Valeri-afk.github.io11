@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+}
+.modal-window {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    width: 100%;
+    min-height: 300px;
+    max-width: 600px;
+}
+.quotes-block {
+    font-size: 3vh;
+    width: 100%;
+    min-height: 250px;
+    border: 1px solid black;
+    background: linear-gradient(to top left, purple, crimson, orangered, gold);
+}
+h1 {
+    margin-block-start: 0px;
+}
+input {
+    padding: 10px 20px;
+    font-size: 2vh;
+    background-color: black;
+    color:white;
+    border: 1px solid black;
+    max-width: 200px;
+    border-radius: 2px;
+    outline: none;
+    margin-left: auto;
+    margin-top: auto;
+    transition: .5s;
+}
+input:hover {
+    cursor: pointer;
+    color: red;
+    background-color: white;
+}
